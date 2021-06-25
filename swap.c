@@ -1,12 +1,12 @@
-
 void swap_max(int arr[],int n,int index){
   int max=arr[index];
   int j=index;
   for(int i=index;i<n;i++){
     if(arr[i]>max){
-     
+     max=arr[i];
       j=i;
   }
+
  }
  int temp=arr[index];
  arr[index]=arr[j];
@@ -19,6 +19,4 @@ void ssort(int arr[],int n){
     swap_max(arr,n,i);
     
     }
-    
-     
 }
