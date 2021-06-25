@@ -1,4 +1,4 @@
-#include <stdio.h>
+
 void swap_max(int arr[],int n,int index){
   int max=arr[index];
   int j=index;
